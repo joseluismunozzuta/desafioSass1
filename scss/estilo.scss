@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcoral;
+}
+header{
+    background-color: lightseagreen;
+    grid-area: header;
+    display: flex;
+    .headercss{
+        background-image:linear-gradient(to right, lightseagreen, rgb(172, 236, 201));
+        width: 100%;
+        .logo{
+            margin-left: 15px;
+        }
+    }
+}

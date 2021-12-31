@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: lightcoral;
+}
+
+header {
+  background-color: lightseagreen;
+  grid-area: header;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .headercss {
+  background-image: -webkit-gradient(linear, left top, right top, from(lightseagreen), to(#acecc9));
+  background-image: linear-gradient(to right, lightseagreen, #acecc9);
+  width: 100%;
+}
+
+header .headercss .logo {
+  margin-left: 15px;
+}
+/*# sourceMappingURL=estilo.css.map */
